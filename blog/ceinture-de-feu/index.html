@@ -4,7 +4,7 @@
 <link rel="canonical" href="https://geotechniquequebec.com/blog/ceinture-de-feu/">
 
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="/css/leaflet-89d2.css"/>
 <style>:root{--primary:#0A2540;--accent:#1e3a5f;--bg:#f9fafb;--border:#e5e7eb;--muted:#64748b;--font-body:'Source Sans 3',sans-serif;--font-h:'Source Serif 4',Georgia,serif}
 *{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-body);line-height:1.65;color:#1f2937;background:var(--bg)}a{color:var(--accent)}
 .container{max-width:1100px;margin:0 auto;padding:0 24px}header{background:var(--primary);color:#fff;padding:18px 0}header .container{display:flex;align-items:center;justify-content:space-between}header a{color:#fff;text-decoration:none}header .brand{font-family:var(--font-h);font-size:1.2rem;font-weight:700}header nav{display:flex;gap:16px;font-size:.92rem;flex-wrap:wrap}
@@ -64,7 +64,7 @@ main{padding:40px 0 60px}.posts{display:grid;grid-template-columns:repeat(auto-f
 <div class="stat"><div class="stat-num">2</div><div class="stat-label">Sous-régions</div></div></div>
 <h2 style="font-family:Georgia,serif;margin:24px 0 12px;border-bottom:2px solid #7c1d6f;padding-bottom:6px;display:inline-block">Carte des événements</h2>
 <div id="cf-map" style="height:480px;width:100%;border-radius:12px;border:1px solid #e5e7eb;margin-bottom:32px"></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/js/leaflet-89d2.js"></script>
 <script>(function(){var el=document.getElementById('cf-map');if(!el||!window.L)return;var map=L.map('cf-map').setView([0,-160],2);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:8}).addTo(map);
 var marks=[[39.9993,142.9851,7.4,"ENE of Miyako","quake-ene-of-miyako-m7-4-20-apr-2026"],
